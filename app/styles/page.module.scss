@@ -1,0 +1,12 @@
+@use "./mixins.scss" as mixins;
+
+
+@include mixins.navbarStyle;
+@include mixins.herozoneStyle;
+@include mixins.categoriesStyle;
+@include mixins.homeBgStyle;
+@include mixins.dayIngredientStyle;
+@include mixins.modalDialogStyle;
+@include mixins.searchResultStyle;
+@include mixins.footerStyle;
+@include mixins.loadingStyle;

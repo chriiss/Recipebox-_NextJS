@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "logo": "/logo.svg",
+        "list": [
+            {"id": 0, "name": "Home", "link": "/"},
+            {"id": 1, "name": "Categories", "link": "/categories"},
+            {"id": 2, "name": "Favorite", "link": "/favorite"}
+        ]
+    },
+    "details": {
+        "button": "+"
+    },
+    "heroZone": {
+        "title": "Recipebox",
+        "searchBox": {
+            "placeholder": "ex: beef bourguignon",
+            "icon": "/search.svg"
+        },
+        "subtitle": "The Ambition Of Every Good Cook Must Be To Make Something Very Good With The Fewest Possible Ingredients."
+    },
+    "searchList": {
+        "title": "Search food recommendation",
+        "result": "result",
+        "results": "results",
+        "searchHome": "A specific search?",
+
+        "noResults": {
+            "name": "noResults",
+            "recommandation": [
+                {"id": 0, "name": "Fish", "img": "https://www.themealdb.com/images/media/meals/1520084413.jpg"},
+                {"id": 1, "name": "Beef", "img": "https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg"},
+                {"id": 2, "name": "Chicken", "img": "https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg"},
+                {"id": 3, "name": "Pasta", "img": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg"},
+                {"id": 4, "name": "Pancake", "img": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg"}
+            ]
+        }
+    },
+    "categoryList": {
+        "title": "Food by categories",
+        "categoriesHome": "See all categories"
+    },
+    "countriesList": {
+        "title": "Food by countries"
+    },
+    "dayIngredient": {
+        "title": "Food of the day"
+    },
+    "category": {
+        "beef": "Beef",
+        "chicken": "Chicken",
+        "dessert": "Dessert",
+        "lamb": "Lamb",
+        "miscellaneous": "Miscellaneous",
+        "pasta": "Pasta",
+        "pork": "Pork",
+        "seaFood": "Seafood",
+        "side": "Side",
+        "starter": "Starter",
+        "vegan": "Vegan",
+        "vegetarian": "Vegetarian",
+        "breakfast": "Breakfast",
+        "goat": "Goat",
+        "back": "Back to categories"
+    },
+    "mealDetails": {
+        "ingredients": "Ingredients",
+        "noIngredient": "No ingredients available.",
+        "preparation": "Preparation",
+        "flag": "/flag.svg",
+        "fork": "/fork.svg",
+        "ing": "/ingredient.svg",
+        "prep": "/preparation.svg"
+    },
+    "favorite": {
+        "title": "Food by favorite"
+    },
+    "footer": {
+        "copyright": "Copyright Recipebox 2023"
+    }
+}

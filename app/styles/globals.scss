@@ -1,0 +1,92 @@
+@use "./var.scss" as var;
+@use "./mixins.scss" as mixins;
+
+* {
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  max-width: var.$breakpoint_lg;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: var.$h1;
+}
+
+h2 {
+  font-size: var.$h2;
+}
+
+h3 {
+  font-size: var.$h3;
+}
+
+p {
+  font-size: 18px;
+}
+
+.buttons {
+  border: 1px solid var.$third_color;
+  background: none;
+  color: var.$third_color;
+  border-radius: 100%;
+  width: 40px;
+  height: 38px;
+  text-align: center;
+  cursor: pointer;
+  font-weight:  bold;
+  font-size: 25px;
+  transition: all .5s ease-in-out;
+
+  &:hover {
+    border: none;
+    background-color: var.$third_color;
+    color: var.$primary_color;
+  }
+}
+
+.homeButton {
+  font-size: 20px;
+  background-color: var.$third_color;
+  color: var.$secondary_color;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  transition: all .5s ease-in-out;
+  margin: auto;
+  display: block;
+  width: 15rem;
+  text-align: center;
+
+  &:hover {
+    background: none;
+    border: 1px solid var.$third_color;
+  }
+}
+
+
+.back {
+  font-size: 20px;
+  color: var.$third_color;
+  @include mixins.flexStyle(row, null, center, 1rem);
+}
+
+.img_responsive {
+  height: auto;
+  width: 100%;
+}
+
+
+.video_responsive {
+  height: 315px;
+  width: 100%;
+}
